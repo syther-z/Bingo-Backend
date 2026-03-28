@@ -1,0 +1,20 @@
+export const GameEvent = {
+    SHOST: 's-host-game',
+    RHOST: 'r-host-game',
+    SJOIN: 's-join-game',
+    RJOIN: 'r-join-game',
+    SSTARTGAME: 's-start-game',
+    RSTARTGAME: 'r-start-game',
+    SMARKNUM: 's-mark-num',
+    RMARKNUM: 'r-mark-num',
+    RCURRENTTURN: 'r-current-turn',
+    RWINNER: 'r-winner',
+    RPLAYERJOIN: 'r-player-join',
+    PLAYERCOUNT: 'player-count',
+    STURNCHANGE: 's-turn-change',
+    RTURNCHANGE: 'r-turn-change',
+    SWINNER: 's-winner',
+    RALERT: 'r-alert',
+    PING: 'ping',
+    SPING: 's-ping'
+};
