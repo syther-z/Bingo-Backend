@@ -13,7 +13,7 @@ class GameService{
     constructor(server: http.Server){
         this.#io = new Server(server, {
             cors: {
-                origin: FRONTEND_URL
+                origin: process.env.FRONTEND_URL
             }
         });
 
